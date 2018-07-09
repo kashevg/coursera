@@ -3,3 +3,8 @@
 .jpeg
 .jpg
 .png
+venv/
+.idea/
+zip/
+data/
+*.pyc
