@@ -1,0 +1,2512 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_02bddf4b4aff4f79902c48136aa2ee60 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_02bddf4b4aff4f79902c48136aa2ee60" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_02bddf4b4aff4f79902c48136aa2ee60 = L.map(
+                                  'map_02bddf4b4aff4f79902c48136aa2ee60',
+                                  {center: [40.705825,-73.9778],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_760ddac31bea4d0a93b1dbca9d117f9b = L.tileLayer(
+                'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+        
+    
+            var rectangle_marker_0157c2789d444539aacb3e1836956f3e = L.rectangle(
+                                  [[40.705825,-74.0222464],
+                                  [40.6974368,-74.0111348]],
+                {
+                    color: 'black',
+                    fillColor: '#fff800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_b8fc97d0d3c145158f7e775f1eb4bbf8 = L.popup({maxWidth: '300'});
+
+            
+                var html_08dfcc44c8e947108339a979eaa87dc5 = $('<div id="html_08dfcc44c8e947108339a979eaa87dc5" style="width: 100.0%; height: 100.0%;">Region number:1075<br> Trips from this area: 27</div>')[0];
+                popup_b8fc97d0d3c145158f7e775f1eb4bbf8.setContent(html_08dfcc44c8e947108339a979eaa87dc5);
+            
+
+            rectangle_marker_0157c2789d444539aacb3e1836956f3e.bindPopup(popup_b8fc97d0d3c145158f7e775f1eb4bbf8);
+
+            
+        
+    
+            var rectangle_marker_1a056630805c4ea0b59b8df22e2bcb77 = L.rectangle(
+                                  [[40.7142132,-74.0222464],
+                                  [40.705825,-74.0111348]],
+                {
+                    color: 'black',
+                    fillColor: '#ffc200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_d3d171c8de9343388561b29315b3a203 = L.popup({maxWidth: '300'});
+
+            
+                var html_5774481698ec41cea329c5f5329b71c2 = $('<div id="html_5774481698ec41cea329c5f5329b71c2" style="width: 100.0%; height: 100.0%;">Region number:1076<br> Trips from this area: 54</div>')[0];
+                popup_d3d171c8de9343388561b29315b3a203.setContent(html_5774481698ec41cea329c5f5329b71c2);
+            
+
+            rectangle_marker_1a056630805c4ea0b59b8df22e2bcb77.bindPopup(popup_d3d171c8de9343388561b29315b3a203);
+
+            
+        
+    
+            var rectangle_marker_289c1ef9cab64b3b9bd6e8428f30e838 = L.rectangle(
+                                  [[40.722601399999995,-74.0222464],
+                                  [40.7142132,-74.0111348]],
+                {
+                    color: 'black',
+                    fillColor: '#fbfd00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_72ba04a19bc345d88c2318532f695818 = L.popup({maxWidth: '300'});
+
+            
+                var html_dca865db8f774b629eb1edc6d5de4ac5 = $('<div id="html_dca865db8f774b629eb1edc6d5de4ac5" style="width: 100.0%; height: 100.0%;">Region number:1077<br> Trips from this area: 23</div>')[0];
+                popup_72ba04a19bc345d88c2318532f695818.setContent(html_dca865db8f774b629eb1edc6d5de4ac5);
+            
+
+            rectangle_marker_289c1ef9cab64b3b9bd6e8428f30e838.bindPopup(popup_72ba04a19bc345d88c2318532f695818);
+
+            
+        
+    
+            var rectangle_marker_5c92ae98b39a430a9a073ffc616d54cc = L.rectangle(
+                                  [[40.705825,-74.0111348],
+                                  [40.6974368,-74.0000232]],
+                {
+                    color: 'black',
+                    fillColor: '#f4fa00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_79d137d0fcb849908a93eeb8f4c3c4a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_7fd2cf893fed42b9a538c1ffe8c90d3e = $('<div id="html_7fd2cf893fed42b9a538c1ffe8c90d3e" style="width: 100.0%; height: 100.0%;">Region number:1125<br> Trips from this area: 21</div>')[0];
+                popup_79d137d0fcb849908a93eeb8f4c3c4a9.setContent(html_7fd2cf893fed42b9a538c1ffe8c90d3e);
+            
+
+            rectangle_marker_5c92ae98b39a430a9a073ffc616d54cc.bindPopup(popup_79d137d0fcb849908a93eeb8f4c3c4a9);
+
+            
+        
+    
+            var rectangle_marker_bcfeb153a8ed4933b2444842e25e02f7 = L.rectangle(
+                                  [[40.7142132,-74.0111348],
+                                  [40.705825,-74.0000232]],
+                {
+                    color: 'black',
+                    fillColor: '#ffb400',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_d90755cf0fce47e497a0ccf48ac5a57d = L.popup({maxWidth: '300'});
+
+            
+                var html_27d383a1b3d94ff1a4323a5526a605a9 = $('<div id="html_27d383a1b3d94ff1a4323a5526a605a9" style="width: 100.0%; height: 100.0%;">Region number:1126<br> Trips from this area: 65</div>')[0];
+                popup_d90755cf0fce47e497a0ccf48ac5a57d.setContent(html_27d383a1b3d94ff1a4323a5526a605a9);
+            
+
+            rectangle_marker_bcfeb153a8ed4933b2444842e25e02f7.bindPopup(popup_d90755cf0fce47e497a0ccf48ac5a57d);
+
+            
+        
+    
+            var rectangle_marker_b1b379cddb3d4c9a9b70c73c7a1c84b2 = L.rectangle(
+                                  [[40.722601399999995,-74.0111348],
+                                  [40.7142132,-74.0000232]],
+                {
+                    color: 'black',
+                    fillColor: '#ff9c00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_8f7425442d244cd8ae78b40e41128586 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e4a92a7d10a474786826e22ca736f4a = $('<div id="html_2e4a92a7d10a474786826e22ca736f4a" style="width: 100.0%; height: 100.0%;">Region number:1127<br> Trips from this area: 88</div>')[0];
+                popup_8f7425442d244cd8ae78b40e41128586.setContent(html_2e4a92a7d10a474786826e22ca736f4a);
+            
+
+            rectangle_marker_b1b379cddb3d4c9a9b70c73c7a1c84b2.bindPopup(popup_8f7425442d244cd8ae78b40e41128586);
+
+            
+        
+    
+            var rectangle_marker_5df0f25e8c044a2baba95cb44fc8aa38 = L.rectangle(
+                                  [[40.7309896,-74.0111348],
+                                  [40.722601399999995,-74.0000232]],
+                {
+                    color: 'black',
+                    fillColor: '#ff5e00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_7020576ac21340f085bff1b1fc28859c = L.popup({maxWidth: '300'});
+
+            
+                var html_a42c572763ae4c75859c4900f02b33ed = $('<div id="html_a42c572763ae4c75859c4900f02b33ed" style="width: 100.0%; height: 100.0%;">Region number:1128<br> Trips from this area: 193</div>')[0];
+                popup_7020576ac21340f085bff1b1fc28859c.setContent(html_a42c572763ae4c75859c4900f02b33ed);
+            
+
+            rectangle_marker_5df0f25e8c044a2baba95cb44fc8aa38.bindPopup(popup_7020576ac21340f085bff1b1fc28859c);
+
+            
+        
+    
+            var rectangle_marker_d6870864315947cc82506f7c2c1874d7 = L.rectangle(
+                                  [[40.7393778,-74.0111348],
+                                  [40.7309896,-74.0000232]],
+                {
+                    color: 'black',
+                    fillColor: '#ff5100',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_e902161ddbcd4b3ab0eb1783bbb9a1bd = L.popup({maxWidth: '300'});
+
+            
+                var html_36bba7be538c4facb4a098b395fd6718 = $('<div id="html_36bba7be538c4facb4a098b395fd6718" style="width: 100.0%; height: 100.0%;">Region number:1129<br> Trips from this area: 230</div>')[0];
+                popup_e902161ddbcd4b3ab0eb1783bbb9a1bd.setContent(html_36bba7be538c4facb4a098b395fd6718);
+            
+
+            rectangle_marker_d6870864315947cc82506f7c2c1874d7.bindPopup(popup_e902161ddbcd4b3ab0eb1783bbb9a1bd);
+
+            
+        
+    
+            var rectangle_marker_e7471f01c3084fab81539dc34053cac8 = L.rectangle(
+                                  [[40.747766,-74.0111348],
+                                  [40.7393778,-74.0000232]],
+                {
+                    color: 'black',
+                    fillColor: '#ff3500',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_f72507fd7eed4e3ebb6350b11feef455 = L.popup({maxWidth: '300'});
+
+            
+                var html_b855ad93fcbe4f1389521964334740b9 = $('<div id="html_b855ad93fcbe4f1389521964334740b9" style="width: 100.0%; height: 100.0%;">Region number:1130<br> Trips from this area: 325</div>')[0];
+                popup_f72507fd7eed4e3ebb6350b11feef455.setContent(html_b855ad93fcbe4f1389521964334740b9);
+            
+
+            rectangle_marker_e7471f01c3084fab81539dc34053cac8.bindPopup(popup_f72507fd7eed4e3ebb6350b11feef455);
+
+            
+        
+    
+            var rectangle_marker_4e0f4664ed73440783802c33d764fdd6 = L.rectangle(
+                                  [[40.756154200000005,-74.0111348],
+                                  [40.747766,-74.0000232]],
+                {
+                    color: 'black',
+                    fillColor: '#ffb600',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_d9a06f30524747df8b37fe93315be7fa = L.popup({maxWidth: '300'});
+
+            
+                var html_d9ad13a8eed443959ea105146c764140 = $('<div id="html_d9ad13a8eed443959ea105146c764140" style="width: 100.0%; height: 100.0%;">Region number:1131<br> Trips from this area: 63</div>')[0];
+                popup_d9a06f30524747df8b37fe93315be7fa.setContent(html_d9ad13a8eed443959ea105146c764140);
+            
+
+            rectangle_marker_4e0f4664ed73440783802c33d764fdd6.bindPopup(popup_d9a06f30524747df8b37fe93315be7fa);
+
+            
+        
+    
+            var rectangle_marker_11a1dbd3cdd24f4c90577b142c16660a = L.rectangle(
+                                  [[40.7645424,-74.0111348],
+                                  [40.756154200000005,-74.0000232]],
+                {
+                    color: 'black',
+                    fillColor: '#56ab00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_d408641b37984d5781fa46f7d00297f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_50c86b6bad5d4e439034d61aebb88dbd = $('<div id="html_50c86b6bad5d4e439034d61aebb88dbd" style="width: 100.0%; height: 100.0%;">Region number:1132<br> Trips from this area: 2</div>')[0];
+                popup_d408641b37984d5781fa46f7d00297f8.setContent(html_50c86b6bad5d4e439034d61aebb88dbd);
+            
+
+            rectangle_marker_11a1dbd3cdd24f4c90577b142c16660a.bindPopup(popup_d408641b37984d5781fa46f7d00297f8);
+
+            
+        
+    
+            var rectangle_marker_f6e0564111c549bfa8bdf7894f261c9f = L.rectangle(
+                                  [[40.6806604,-74.0000232],
+                                  [40.6722722,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#369b00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_0f49f9d4d7904bfe8e5a042023b6ea08 = L.popup({maxWidth: '300'});
+
+            
+                var html_7bee6566e86c443abe9b96b983d408e2 = $('<div id="html_7bee6566e86c443abe9b96b983d408e2" style="width: 100.0%; height: 100.0%;">Region number:1172<br> Trips from this area: 1</div>')[0];
+                popup_0f49f9d4d7904bfe8e5a042023b6ea08.setContent(html_7bee6566e86c443abe9b96b983d408e2);
+            
+
+            rectangle_marker_f6e0564111c549bfa8bdf7894f261c9f.bindPopup(popup_0f49f9d4d7904bfe8e5a042023b6ea08);
+
+            
+        
+    
+            var rectangle_marker_ff31162b1a0442e8ba216db577cc932a = L.rectangle(
+                                  [[40.68904860000001,-74.0000232],
+                                  [40.6806604,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#d0e800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_f1874b68798f4e348b01821baa0e45de = L.popup({maxWidth: '300'});
+
+            
+                var html_f36d55e772f74cb1842649c511d3d2e9 = $('<div id="html_f36d55e772f74cb1842649c511d3d2e9" style="width: 100.0%; height: 100.0%;">Region number:1173<br> Trips from this area: 13</div>')[0];
+                popup_f1874b68798f4e348b01821baa0e45de.setContent(html_f36d55e772f74cb1842649c511d3d2e9);
+            
+
+            rectangle_marker_ff31162b1a0442e8ba216db577cc932a.bindPopup(popup_f1874b68798f4e348b01821baa0e45de);
+
+            
+        
+    
+            var rectangle_marker_68fe4048aec14458b25cc67ec437f186 = L.rectangle(
+                                  [[40.6974368,-74.0000232],
+                                  [40.68904860000001,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#add700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_a6a5cf14569b4299ac69e4bb5a13abf1 = L.popup({maxWidth: '300'});
+
+            
+                var html_99738ec9e8444c6ab81b7eff9b219d4b = $('<div id="html_99738ec9e8444c6ab81b7eff9b219d4b" style="width: 100.0%; height: 100.0%;">Region number:1174<br> Trips from this area: 8</div>')[0];
+                popup_a6a5cf14569b4299ac69e4bb5a13abf1.setContent(html_99738ec9e8444c6ab81b7eff9b219d4b);
+            
+
+            rectangle_marker_68fe4048aec14458b25cc67ec437f186.bindPopup(popup_a6a5cf14569b4299ac69e4bb5a13abf1);
+
+            
+        
+    
+            var rectangle_marker_9aaaea1c9b1741a792622828be1d4a00 = L.rectangle(
+                                  [[40.705825,-74.0000232],
+                                  [40.6974368,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#a4d200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_cdcc9264385d47008d6d159e62a52cdc = L.popup({maxWidth: '300'});
+
+            
+                var html_8dcba3de641d4bab9e839d248b2fd381 = $('<div id="html_8dcba3de641d4bab9e839d248b2fd381" style="width: 100.0%; height: 100.0%;">Region number:1175<br> Trips from this area: 7</div>')[0];
+                popup_cdcc9264385d47008d6d159e62a52cdc.setContent(html_8dcba3de641d4bab9e839d248b2fd381);
+            
+
+            rectangle_marker_9aaaea1c9b1741a792622828be1d4a00.bindPopup(popup_cdcc9264385d47008d6d159e62a52cdc);
+
+            
+        
+    
+            var rectangle_marker_f434aa5fa6bf48729657db55b93a593c = L.rectangle(
+                                  [[40.7142132,-74.0000232],
+                                  [40.705825,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#f4fa00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_7042ad6c980f49c5882d7ebe2bba40c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ca6842fd3e146d3b683c5a9f988b9ac = $('<div id="html_8ca6842fd3e146d3b683c5a9f988b9ac" style="width: 100.0%; height: 100.0%;">Region number:1176<br> Trips from this area: 21</div>')[0];
+                popup_7042ad6c980f49c5882d7ebe2bba40c0.setContent(html_8ca6842fd3e146d3b683c5a9f988b9ac);
+            
+
+            rectangle_marker_f434aa5fa6bf48729657db55b93a593c.bindPopup(popup_7042ad6c980f49c5882d7ebe2bba40c0);
+
+            
+        
+    
+            var rectangle_marker_3da656ab7acb4c898fbc2a9981fc3d72 = L.rectangle(
+                                  [[40.722601399999995,-74.0000232],
+                                  [40.7142132,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#ff5a00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_9fedabb464264f7d8fcbf5cd2c27c69e = L.popup({maxWidth: '300'});
+
+            
+                var html_80aee8126d7a424fa1171175a7cb5ec9 = $('<div id="html_80aee8126d7a424fa1171175a7cb5ec9" style="width: 100.0%; height: 100.0%;">Region number:1177<br> Trips from this area: 204</div>')[0];
+                popup_9fedabb464264f7d8fcbf5cd2c27c69e.setContent(html_80aee8126d7a424fa1171175a7cb5ec9);
+            
+
+            rectangle_marker_3da656ab7acb4c898fbc2a9981fc3d72.bindPopup(popup_9fedabb464264f7d8fcbf5cd2c27c69e);
+
+            
+        
+    
+            var rectangle_marker_43d02014a5304d7c86c1ee3f09195002 = L.rectangle(
+                                  [[40.7309896,-74.0000232],
+                                  [40.722601399999995,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#ff4500',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_8af69e2e6d234b7b802bcf300dc06c07 = L.popup({maxWidth: '300'});
+
+            
+                var html_44bdd7a621474e15b4a426717125918d = $('<div id="html_44bdd7a621474e15b4a426717125918d" style="width: 100.0%; height: 100.0%;">Region number:1178<br> Trips from this area: 265</div>')[0];
+                popup_8af69e2e6d234b7b802bcf300dc06c07.setContent(html_44bdd7a621474e15b4a426717125918d);
+            
+
+            rectangle_marker_43d02014a5304d7c86c1ee3f09195002.bindPopup(popup_8af69e2e6d234b7b802bcf300dc06c07);
+
+            
+        
+    
+            var rectangle_marker_d949a8700ba0447fbbbf429c85e3114a = L.rectangle(
+                                  [[40.7393778,-74.0000232],
+                                  [40.7309896,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#ff4500',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_09579acf07ca4856940595c7b234a2cf = L.popup({maxWidth: '300'});
+
+            
+                var html_dbf783d12d1041a3b02402c7e89fd899 = $('<div id="html_dbf783d12d1041a3b02402c7e89fd899" style="width: 100.0%; height: 100.0%;">Region number:1179<br> Trips from this area: 265</div>')[0];
+                popup_09579acf07ca4856940595c7b234a2cf.setContent(html_dbf783d12d1041a3b02402c7e89fd899);
+            
+
+            rectangle_marker_d949a8700ba0447fbbbf429c85e3114a.bindPopup(popup_09579acf07ca4856940595c7b234a2cf);
+
+            
+        
+    
+            var rectangle_marker_e2405195d8804cf09287b9914a32367d = L.rectangle(
+                                  [[40.747766,-74.0000232],
+                                  [40.7393778,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#ff3d00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_65da13155aa64d408fa2eaedb6be3f68 = L.popup({maxWidth: '300'});
+
+            
+                var html_3557cb6102104608bd0db869da43282e = $('<div id="html_3557cb6102104608bd0db869da43282e" style="width: 100.0%; height: 100.0%;">Region number:1180<br> Trips from this area: 294</div>')[0];
+                popup_65da13155aa64d408fa2eaedb6be3f68.setContent(html_3557cb6102104608bd0db869da43282e);
+            
+
+            rectangle_marker_e2405195d8804cf09287b9914a32367d.bindPopup(popup_65da13155aa64d408fa2eaedb6be3f68);
+
+            
+        
+    
+            var rectangle_marker_51f6e479be9a48ceb74c7038c10b61fd = L.rectangle(
+                                  [[40.756154200000005,-74.0000232],
+                                  [40.747766,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#ff0000',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_09036346cd684ef1a75844e5b06db1db = L.popup({maxWidth: '300'});
+
+            
+                var html_170bdd49a7e6493a9b8c022dba71e7f3 = $('<div id="html_170bdd49a7e6493a9b8c022dba71e7f3" style="width: 100.0%; height: 100.0%;">Region number:1181<br> Trips from this area: 642</div>')[0];
+                popup_09036346cd684ef1a75844e5b06db1db.setContent(html_170bdd49a7e6493a9b8c022dba71e7f3);
+            
+
+            rectangle_marker_51f6e479be9a48ceb74c7038c10b61fd.bindPopup(popup_09036346cd684ef1a75844e5b06db1db);
+
+            
+        
+    
+            var rectangle_marker_eda15817990e48928a99b199bfae46c5 = L.rectangle(
+                                  [[40.7645424,-74.0000232],
+                                  [40.756154200000005,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#ff2f00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_6bfa5ca14f24450d8a65a59245ec0cb6 = L.popup({maxWidth: '300'});
+
+            
+                var html_30f28757bce24f778eb1f6a26538e186 = $('<div id="html_30f28757bce24f778eb1f6a26538e186" style="width: 100.0%; height: 100.0%;">Region number:1182<br> Trips from this area: 350</div>')[0];
+                popup_6bfa5ca14f24450d8a65a59245ec0cb6.setContent(html_30f28757bce24f778eb1f6a26538e186);
+            
+
+            rectangle_marker_eda15817990e48928a99b199bfae46c5.bindPopup(popup_6bfa5ca14f24450d8a65a59245ec0cb6);
+
+            
+        
+    
+            var rectangle_marker_609ecf3156114a65ae860f13980c49fe = L.rectangle(
+                                  [[40.7729306,-74.0000232],
+                                  [40.7645424,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#fff500',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_d52d73c041194ddea0361b872507b693 = L.popup({maxWidth: '300'});
+
+            
+                var html_93bf85b4a6fb430eb517101d2e3ec1ac = $('<div id="html_93bf85b4a6fb430eb517101d2e3ec1ac" style="width: 100.0%; height: 100.0%;">Region number:1183<br> Trips from this area: 28</div>')[0];
+                popup_d52d73c041194ddea0361b872507b693.setContent(html_93bf85b4a6fb430eb517101d2e3ec1ac);
+            
+
+            rectangle_marker_609ecf3156114a65ae860f13980c49fe.bindPopup(popup_d52d73c041194ddea0361b872507b693);
+
+            
+        
+    
+            var rectangle_marker_24c3982dcc8b4f9f95066198c8d66fbc = L.rectangle(
+                                  [[40.781318799999994,-74.0000232],
+                                  [40.7729306,-73.9889116]],
+                {
+                    color: 'black',
+                    fillColor: '#6db700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_447c409486714ea290fb99847594c7b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_83ba78d3f2664646bc427ef7270feb71 = $('<div id="html_83ba78d3f2664646bc427ef7270feb71" style="width: 100.0%; height: 100.0%;">Region number:1184<br> Trips from this area: 3</div>')[0];
+                popup_447c409486714ea290fb99847594c7b5.setContent(html_83ba78d3f2664646bc427ef7270feb71);
+            
+
+            rectangle_marker_24c3982dcc8b4f9f95066198c8d66fbc.bindPopup(popup_447c409486714ea290fb99847594c7b5);
+
+            
+        
+    
+            var rectangle_marker_80192d1ca35d4d2b8ca6769ef87026ca = L.rectangle(
+                                  [[40.6722722,-73.9889116],
+                                  [40.663884,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#a4d200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_bbac986e7517476fa9411149b9a6c213 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ea2008b720c42bea71ab2254ddeec12 = $('<div id="html_8ea2008b720c42bea71ab2254ddeec12" style="width: 100.0%; height: 100.0%;">Region number:1221<br> Trips from this area: 7</div>')[0];
+                popup_bbac986e7517476fa9411149b9a6c213.setContent(html_8ea2008b720c42bea71ab2254ddeec12);
+            
+
+            rectangle_marker_80192d1ca35d4d2b8ca6769ef87026ca.bindPopup(popup_bbac986e7517476fa9411149b9a6c213);
+
+            
+        
+    
+            var rectangle_marker_0f9a1d2396f346eb84d8e679fbf3eb4f = L.rectangle(
+                                  [[40.6806604,-73.9889116],
+                                  [40.6722722,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#c4e200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_b66f2df90f244943bf5039c654fd11b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_c787b3fc4f6e49ae9a98fbb0c12eff41 = $('<div id="html_c787b3fc4f6e49ae9a98fbb0c12eff41" style="width: 100.0%; height: 100.0%;">Region number:1222<br> Trips from this area: 11</div>')[0];
+                popup_b66f2df90f244943bf5039c654fd11b0.setContent(html_c787b3fc4f6e49ae9a98fbb0c12eff41);
+            
+
+            rectangle_marker_0f9a1d2396f346eb84d8e679fbf3eb4f.bindPopup(popup_b66f2df90f244943bf5039c654fd11b0);
+
+            
+        
+    
+            var rectangle_marker_0178dbf0718e4b0f8d2b67367e13e1e3 = L.rectangle(
+                                  [[40.68904860000001,-73.9889116],
+                                  [40.6806604,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#edf600',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_2a2b05fa56064c309763defd62c7053c = L.popup({maxWidth: '300'});
+
+            
+                var html_7b8ced705c7e48a6b1187312cf079f77 = $('<div id="html_7b8ced705c7e48a6b1187312cf079f77" style="width: 100.0%; height: 100.0%;">Region number:1223<br> Trips from this area: 19</div>')[0];
+                popup_2a2b05fa56064c309763defd62c7053c.setContent(html_7b8ced705c7e48a6b1187312cf079f77);
+            
+
+            rectangle_marker_0178dbf0718e4b0f8d2b67367e13e1e3.bindPopup(popup_2a2b05fa56064c309763defd62c7053c);
+
+            
+        
+    
+            var rectangle_marker_99c1198f9beb47e3bb6176af465a23db = L.rectangle(
+                                  [[40.6974368,-73.9889116],
+                                  [40.68904860000001,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#fffe00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_80fd9aa7794d4207801dd24060375126 = L.popup({maxWidth: '300'});
+
+            
+                var html_05a5747500574f729675654a331cff99 = $('<div id="html_05a5747500574f729675654a331cff99" style="width: 100.0%; height: 100.0%;">Region number:1224<br> Trips from this area: 25</div>')[0];
+                popup_80fd9aa7794d4207801dd24060375126.setContent(html_05a5747500574f729675654a331cff99);
+            
+
+            rectangle_marker_99c1198f9beb47e3bb6176af465a23db.bindPopup(popup_80fd9aa7794d4207801dd24060375126);
+
+            
+        
+    
+            var rectangle_marker_483c7b7f506a49e79226953adb762ed9 = L.rectangle(
+                                  [[40.705825,-73.9889116],
+                                  [40.6974368,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#6db700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_c270b8ccc8a54e3a8f5394425a704c17 = L.popup({maxWidth: '300'});
+
+            
+                var html_194d643c43d34c098d9cd02159221b53 = $('<div id="html_194d643c43d34c098d9cd02159221b53" style="width: 100.0%; height: 100.0%;">Region number:1225<br> Trips from this area: 3</div>')[0];
+                popup_c270b8ccc8a54e3a8f5394425a704c17.setContent(html_194d643c43d34c098d9cd02159221b53);
+            
+
+            rectangle_marker_483c7b7f506a49e79226953adb762ed9.bindPopup(popup_c270b8ccc8a54e3a8f5394425a704c17);
+
+            
+        
+    
+            var rectangle_marker_5981de532e7f4b5eab46e52c915e806e = L.rectangle(
+                                  [[40.722601399999995,-73.9889116],
+                                  [40.7142132,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#ff7700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_4631d356e16b473082b198e9f0b735ac = L.popup({maxWidth: '300'});
+
+            
+                var html_4b5945528d8e4dcb954d482cde9b5d18 = $('<div id="html_4b5945528d8e4dcb954d482cde9b5d18" style="width: 100.0%; height: 100.0%;">Region number:1227<br> Trips from this area: 141</div>')[0];
+                popup_4631d356e16b473082b198e9f0b735ac.setContent(html_4b5945528d8e4dcb954d482cde9b5d18);
+            
+
+            rectangle_marker_5981de532e7f4b5eab46e52c915e806e.bindPopup(popup_4631d356e16b473082b198e9f0b735ac);
+
+            
+        
+    
+            var rectangle_marker_b8291add6a00455fb920cdcc1928133c = L.rectangle(
+                                  [[40.7309896,-73.9889116],
+                                  [40.722601399999995,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#ff4800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_975f2f861b7a4c82b5cc53551bf966b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_f5f01767593649d2bc4c5b55310860d5 = $('<div id="html_f5f01767593649d2bc4c5b55310860d5" style="width: 100.0%; height: 100.0%;">Region number:1228<br> Trips from this area: 255</div>')[0];
+                popup_975f2f861b7a4c82b5cc53551bf966b9.setContent(html_f5f01767593649d2bc4c5b55310860d5);
+            
+
+            rectangle_marker_b8291add6a00455fb920cdcc1928133c.bindPopup(popup_975f2f861b7a4c82b5cc53551bf966b9);
+
+            
+        
+    
+            var rectangle_marker_022e21cbd5d94ce58ce1b7d0db29aa20 = L.rectangle(
+                                  [[40.7393778,-73.9889116],
+                                  [40.7309896,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#ff5700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_cd58f9f4940b4645a5e300ebc4491caa = L.popup({maxWidth: '300'});
+
+            
+                var html_82fe630a874743629367f94a9f21a001 = $('<div id="html_82fe630a874743629367f94a9f21a001" style="width: 100.0%; height: 100.0%;">Region number:1229<br> Trips from this area: 213</div>')[0];
+                popup_cd58f9f4940b4645a5e300ebc4491caa.setContent(html_82fe630a874743629367f94a9f21a001);
+            
+
+            rectangle_marker_022e21cbd5d94ce58ce1b7d0db29aa20.bindPopup(popup_cd58f9f4940b4645a5e300ebc4491caa);
+
+            
+        
+    
+            var rectangle_marker_ae4d190cc7fb40e9b516aae2f21aaf10 = L.rectangle(
+                                  [[40.747766,-73.9889116],
+                                  [40.7393778,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#ff3c00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_59c88df43e5f488290ddcce4a743339d = L.popup({maxWidth: '300'});
+
+            
+                var html_3b527ef39c064d91902bec998cf19733 = $('<div id="html_3b527ef39c064d91902bec998cf19733" style="width: 100.0%; height: 100.0%;">Region number:1230<br> Trips from this area: 299</div>')[0];
+                popup_59c88df43e5f488290ddcce4a743339d.setContent(html_3b527ef39c064d91902bec998cf19733);
+            
+
+            rectangle_marker_ae4d190cc7fb40e9b516aae2f21aaf10.bindPopup(popup_59c88df43e5f488290ddcce4a743339d);
+
+            
+        
+    
+            var rectangle_marker_df75fda075614097b16038d7236601cf = L.rectangle(
+                                  [[40.756154200000005,-73.9889116],
+                                  [40.747766,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#ff3a00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_5de91bb841da4d5ba6a9cc3aa51840ad = L.popup({maxWidth: '300'});
+
+            
+                var html_d41454179c11442cbec1dfd8806309c1 = $('<div id="html_d41454179c11442cbec1dfd8806309c1" style="width: 100.0%; height: 100.0%;">Region number:1231<br> Trips from this area: 308</div>')[0];
+                popup_5de91bb841da4d5ba6a9cc3aa51840ad.setContent(html_d41454179c11442cbec1dfd8806309c1);
+            
+
+            rectangle_marker_df75fda075614097b16038d7236601cf.bindPopup(popup_5de91bb841da4d5ba6a9cc3aa51840ad);
+
+            
+        
+    
+            var rectangle_marker_cdfece8fac2f471d8e1d2d9a5f43eb20 = L.rectangle(
+                                  [[40.7645424,-73.9889116],
+                                  [40.756154200000005,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#ff0a00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_6be03a47fddf47d98aff52b47c539995 = L.popup({maxWidth: '300'});
+
+            
+                var html_299607480c6d413f82ce21bebd6ab964 = $('<div id="html_299607480c6d413f82ce21bebd6ab964" style="width: 100.0%; height: 100.0%;">Region number:1232<br> Trips from this area: 562</div>')[0];
+                popup_6be03a47fddf47d98aff52b47c539995.setContent(html_299607480c6d413f82ce21bebd6ab964);
+            
+
+            rectangle_marker_cdfece8fac2f471d8e1d2d9a5f43eb20.bindPopup(popup_6be03a47fddf47d98aff52b47c539995);
+
+            
+        
+    
+            var rectangle_marker_2bcbaffc06ec4c4cb6b3a548c3da75fe = L.rectangle(
+                                  [[40.7729306,-73.9889116],
+                                  [40.7645424,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#ff4900',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_d086144150544002a221b64e5fd8ac42 = L.popup({maxWidth: '300'});
+
+            
+                var html_7ea1e1be50ad4b92968089a8a845d84c = $('<div id="html_7ea1e1be50ad4b92968089a8a845d84c" style="width: 100.0%; height: 100.0%;">Region number:1233<br> Trips from this area: 252</div>')[0];
+                popup_d086144150544002a221b64e5fd8ac42.setContent(html_7ea1e1be50ad4b92968089a8a845d84c);
+            
+
+            rectangle_marker_2bcbaffc06ec4c4cb6b3a548c3da75fe.bindPopup(popup_d086144150544002a221b64e5fd8ac42);
+
+            
+        
+    
+            var rectangle_marker_b4bd9aad742c4d148349d4360e9101fe = L.rectangle(
+                                  [[40.781318799999994,-73.9889116],
+                                  [40.7729306,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#ff8900',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_0b984f73a3b2421ba98a5f3807bae14f = L.popup({maxWidth: '300'});
+
+            
+                var html_07fa40c0246649719afdddb09ac8dfcb = $('<div id="html_07fa40c0246649719afdddb09ac8dfcb" style="width: 100.0%; height: 100.0%;">Region number:1234<br> Trips from this area: 112</div>')[0];
+                popup_0b984f73a3b2421ba98a5f3807bae14f.setContent(html_07fa40c0246649719afdddb09ac8dfcb);
+            
+
+            rectangle_marker_b4bd9aad742c4d148349d4360e9101fe.bindPopup(popup_0b984f73a3b2421ba98a5f3807bae14f);
+
+            
+        
+    
+            var rectangle_marker_27155c0fec834575a1e1b41ba27e7a8b = L.rectangle(
+                                  [[40.789707,-73.9889116],
+                                  [40.781318799999994,-73.9778]],
+                {
+                    color: 'black',
+                    fillColor: '#ffd900',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_db4f1619fa4e4904b69ed4953c23b3dd = L.popup({maxWidth: '300'});
+
+            
+                var html_d3fe42ae08674adb9e0fbf043574f18f = $('<div id="html_d3fe42ae08674adb9e0fbf043574f18f" style="width: 100.0%; height: 100.0%;">Region number:1235<br> Trips from this area: 40</div>')[0];
+                popup_db4f1619fa4e4904b69ed4953c23b3dd.setContent(html_d3fe42ae08674adb9e0fbf043574f18f);
+            
+
+            rectangle_marker_27155c0fec834575a1e1b41ba27e7a8b.bindPopup(popup_db4f1619fa4e4904b69ed4953c23b3dd);
+
+            
+        
+    
+            var rectangle_marker_2c7953c804004c04b265cdd293a0033d = L.rectangle(
+                                  [[40.6806604,-73.9778],
+                                  [40.6722722,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#f8fc00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_c0b121d2c7834238afef1395bb025a98 = L.popup({maxWidth: '300'});
+
+            
+                var html_a95a3d916ed245b195714c81a779ae29 = $('<div id="html_a95a3d916ed245b195714c81a779ae29" style="width: 100.0%; height: 100.0%;">Region number:1272<br> Trips from this area: 22</div>')[0];
+                popup_c0b121d2c7834238afef1395bb025a98.setContent(html_a95a3d916ed245b195714c81a779ae29);
+            
+
+            rectangle_marker_2c7953c804004c04b265cdd293a0033d.bindPopup(popup_c0b121d2c7834238afef1395bb025a98);
+
+            
+        
+    
+            var rectangle_marker_9c39224be02e4e0da0a6c84ed8592f1c = L.rectangle(
+                                  [[40.68904860000001,-73.9778],
+                                  [40.6806604,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#f1f800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_632868e9a1cf4e46a841af90db77dfa6 = L.popup({maxWidth: '300'});
+
+            
+                var html_ae0f49243c1a43c9b69d5e236148ac97 = $('<div id="html_ae0f49243c1a43c9b69d5e236148ac97" style="width: 100.0%; height: 100.0%;">Region number:1273<br> Trips from this area: 20</div>')[0];
+                popup_632868e9a1cf4e46a841af90db77dfa6.setContent(html_ae0f49243c1a43c9b69d5e236148ac97);
+            
+
+            rectangle_marker_9c39224be02e4e0da0a6c84ed8592f1c.bindPopup(popup_632868e9a1cf4e46a841af90db77dfa6);
+
+            
+        
+    
+            var rectangle_marker_0f9164fcc7d84da18ae35897fa13760d = L.rectangle(
+                                  [[40.6974368,-73.9778],
+                                  [40.68904860000001,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#9acd00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_49d40967ba974a2b8c8a6efa8aee8291 = L.popup({maxWidth: '300'});
+
+            
+                var html_4de1fdd6a8064d0387e5e5ef286d6031 = $('<div id="html_4de1fdd6a8064d0387e5e5ef286d6031" style="width: 100.0%; height: 100.0%;">Region number:1274<br> Trips from this area: 6</div>')[0];
+                popup_49d40967ba974a2b8c8a6efa8aee8291.setContent(html_4de1fdd6a8064d0387e5e5ef286d6031);
+            
+
+            rectangle_marker_0f9164fcc7d84da18ae35897fa13760d.bindPopup(popup_49d40967ba974a2b8c8a6efa8aee8291);
+
+            
+        
+    
+            var rectangle_marker_15a19be05c2f47b9b2e7a4b8b68f715a = L.rectangle(
+                                  [[40.7309896,-73.9778],
+                                  [40.722601399999995,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#9acd00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_3e0821e50cf84e1e9ca26ea2238f828c = L.popup({maxWidth: '300'});
+
+            
+                var html_ef72af1f5fa44b1fa6f9da84085aec3f = $('<div id="html_ef72af1f5fa44b1fa6f9da84085aec3f" style="width: 100.0%; height: 100.0%;">Region number:1278<br> Trips from this area: 6</div>')[0];
+                popup_3e0821e50cf84e1e9ca26ea2238f828c.setContent(html_ef72af1f5fa44b1fa6f9da84085aec3f);
+            
+
+            rectangle_marker_15a19be05c2f47b9b2e7a4b8b68f715a.bindPopup(popup_3e0821e50cf84e1e9ca26ea2238f828c);
+
+            
+        
+    
+            var rectangle_marker_3b7eba1ea14944ecb3f59175251fb23d = L.rectangle(
+                                  [[40.7393778,-73.9778],
+                                  [40.7309896,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#b6db00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_e79c46f212a04cb1bb50432e90b6c417 = L.popup({maxWidth: '300'});
+
+            
+                var html_e67bc59d01ed42908c3c4bcb2079807a = $('<div id="html_e67bc59d01ed42908c3c4bcb2079807a" style="width: 100.0%; height: 100.0%;">Region number:1279<br> Trips from this area: 9</div>')[0];
+                popup_e79c46f212a04cb1bb50432e90b6c417.setContent(html_e67bc59d01ed42908c3c4bcb2079807a);
+            
+
+            rectangle_marker_3b7eba1ea14944ecb3f59175251fb23d.bindPopup(popup_e79c46f212a04cb1bb50432e90b6c417);
+
+            
+        
+    
+            var rectangle_marker_f8b3e4ebecdf4c18a04f785d520c4d17 = L.rectangle(
+                                  [[40.747766,-73.9778],
+                                  [40.7393778,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#ffa100',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_eaf3605fe519409ca3845e5a149b3282 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb42e52d944d46c9ad57c345a82761ec = $('<div id="html_cb42e52d944d46c9ad57c345a82761ec" style="width: 100.0%; height: 100.0%;">Region number:1280<br> Trips from this area: 83</div>')[0];
+                popup_eaf3605fe519409ca3845e5a149b3282.setContent(html_cb42e52d944d46c9ad57c345a82761ec);
+            
+
+            rectangle_marker_f8b3e4ebecdf4c18a04f785d520c4d17.bindPopup(popup_eaf3605fe519409ca3845e5a149b3282);
+
+            
+        
+    
+            var rectangle_marker_1c8a423220b74853ad5d2a56acbe1f6c = L.rectangle(
+                                  [[40.756154200000005,-73.9778],
+                                  [40.747766,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#ff4c00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_4f85b53b40de427db46479ae441aaa65 = L.popup({maxWidth: '300'});
+
+            
+                var html_30aa458da7c64890b38aff6e19597106 = $('<div id="html_30aa458da7c64890b38aff6e19597106" style="width: 100.0%; height: 100.0%;">Region number:1281<br> Trips from this area: 245</div>')[0];
+                popup_4f85b53b40de427db46479ae441aaa65.setContent(html_30aa458da7c64890b38aff6e19597106);
+            
+
+            rectangle_marker_1c8a423220b74853ad5d2a56acbe1f6c.bindPopup(popup_4f85b53b40de427db46479ae441aaa65);
+
+            
+        
+    
+            var rectangle_marker_846bef4fd77e45838414c8b692485663 = L.rectangle(
+                                  [[40.7645424,-73.9778],
+                                  [40.756154200000005,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#ff4700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_a5bba0a8001d44d3a9ada841ef5e98cd = L.popup({maxWidth: '300'});
+
+            
+                var html_2f61ff99a00f405186c9e98253559ea1 = $('<div id="html_2f61ff99a00f405186c9e98253559ea1" style="width: 100.0%; height: 100.0%;">Region number:1282<br> Trips from this area: 260</div>')[0];
+                popup_a5bba0a8001d44d3a9ada841ef5e98cd.setContent(html_2f61ff99a00f405186c9e98253559ea1);
+            
+
+            rectangle_marker_846bef4fd77e45838414c8b692485663.bindPopup(popup_a5bba0a8001d44d3a9ada841ef5e98cd);
+
+            
+        
+    
+            var rectangle_marker_15f47a33d2da46acb0c2df3395036109 = L.rectangle(
+                                  [[40.7729306,-73.9778],
+                                  [40.7645424,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#ffdf00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_5f05806aa55648829ba0b6e73dd68fcb = L.popup({maxWidth: '300'});
+
+            
+                var html_37984bb1c00c493989a6000951d1a1d4 = $('<div id="html_37984bb1c00c493989a6000951d1a1d4" style="width: 100.0%; height: 100.0%;">Region number:1283<br> Trips from this area: 37</div>')[0];
+                popup_5f05806aa55648829ba0b6e73dd68fcb.setContent(html_37984bb1c00c493989a6000951d1a1d4);
+            
+
+            rectangle_marker_15f47a33d2da46acb0c2df3395036109.bindPopup(popup_5f05806aa55648829ba0b6e73dd68fcb);
+
+            
+        
+    
+            var rectangle_marker_2389066c2e3d4a4987fd2593481586df = L.rectangle(
+                                  [[40.781318799999994,-73.9778],
+                                  [40.7729306,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#dbed00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_92b54d7c6c6f413f9e95270c99ed00b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_493f9034dc444c239995ac9bfa6cdf67 = $('<div id="html_493f9034dc444c239995ac9bfa6cdf67" style="width: 100.0%; height: 100.0%;">Region number:1284<br> Trips from this area: 15</div>')[0];
+                popup_92b54d7c6c6f413f9e95270c99ed00b4.setContent(html_493f9034dc444c239995ac9bfa6cdf67);
+            
+
+            rectangle_marker_2389066c2e3d4a4987fd2593481586df.bindPopup(popup_92b54d7c6c6f413f9e95270c99ed00b4);
+
+            
+        
+    
+            var rectangle_marker_7ab152fa514049408025f238c9c7de65 = L.rectangle(
+                                  [[40.789707,-73.9778],
+                                  [40.781318799999994,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#ff8b00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_1eaf2b8f05144320b08577705cad5074 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad7ccf5f987e45e3b2d0e86d89c2714d = $('<div id="html_ad7ccf5f987e45e3b2d0e86d89c2714d" style="width: 100.0%; height: 100.0%;">Region number:1285<br> Trips from this area: 109</div>')[0];
+                popup_1eaf2b8f05144320b08577705cad5074.setContent(html_ad7ccf5f987e45e3b2d0e86d89c2714d);
+            
+
+            rectangle_marker_7ab152fa514049408025f238c9c7de65.bindPopup(popup_1eaf2b8f05144320b08577705cad5074);
+
+            
+        
+    
+            var rectangle_marker_0392dd6a169b4eafb1f58237ff3cb492 = L.rectangle(
+                                  [[40.798095200000006,-73.9778],
+                                  [40.789707,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#ff9800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_379860f2932844c08520e69bdc25ea66 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e33e94f130841d3be2c00fe08e3455e = $('<div id="html_9e33e94f130841d3be2c00fe08e3455e" style="width: 100.0%; height: 100.0%;">Region number:1286<br> Trips from this area: 93</div>')[0];
+                popup_379860f2932844c08520e69bdc25ea66.setContent(html_9e33e94f130841d3be2c00fe08e3455e);
+            
+
+            rectangle_marker_0392dd6a169b4eafb1f58237ff3cb492.bindPopup(popup_379860f2932844c08520e69bdc25ea66);
+
+            
+        
+    
+            var rectangle_marker_1fc886d7933a466b942fdf850d416e2c = L.rectangle(
+                                  [[40.8064834,-73.9778],
+                                  [40.798095200000006,-73.96668840000001]],
+                {
+                    color: 'black',
+                    fillColor: '#ffd900',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_520100bf3c764e859e42cb5781785aa1 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d7f266f2ba04fa8bc71c39505e2c590 = $('<div id="html_9d7f266f2ba04fa8bc71c39505e2c590" style="width: 100.0%; height: 100.0%;">Region number:1287<br> Trips from this area: 40</div>')[0];
+                popup_520100bf3c764e859e42cb5781785aa1.setContent(html_9d7f266f2ba04fa8bc71c39505e2c590);
+            
+
+            rectangle_marker_1fc886d7933a466b942fdf850d416e2c.bindPopup(popup_520100bf3c764e859e42cb5781785aa1);
+
+            
+        
+    
+            var rectangle_marker_9ed87aa713b04032834030bc8a65c6c8 = L.rectangle(
+                                  [[40.7142132,-73.96668840000001],
+                                  [40.705825,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#ffcf00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_8aa3cc89a7a24e8dbf168bbf3f0a6792 = L.popup({maxWidth: '300'});
+
+            
+                var html_d25468c32020449f92888e4a02c0dac0 = $('<div id="html_d25468c32020449f92888e4a02c0dac0" style="width: 100.0%; height: 100.0%;">Region number:1326<br> Trips from this area: 46</div>')[0];
+                popup_8aa3cc89a7a24e8dbf168bbf3f0a6792.setContent(html_d25468c32020449f92888e4a02c0dac0);
+            
+
+            rectangle_marker_9ed87aa713b04032834030bc8a65c6c8.bindPopup(popup_8aa3cc89a7a24e8dbf168bbf3f0a6792);
+
+            
+        
+    
+            var rectangle_marker_c1bcff63c6bb4ff3bfc0ec4148f8d038 = L.rectangle(
+                                  [[40.722601399999995,-73.96668840000001],
+                                  [40.7142132,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#ffad00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_0846ee18cb934ad198d47cd5287e6e3a = L.popup({maxWidth: '300'});
+
+            
+                var html_862203b6b25d47c88b85db690bb2e403 = $('<div id="html_862203b6b25d47c88b85db690bb2e403" style="width: 100.0%; height: 100.0%;">Region number:1327<br> Trips from this area: 71</div>')[0];
+                popup_0846ee18cb934ad198d47cd5287e6e3a.setContent(html_862203b6b25d47c88b85db690bb2e403);
+            
+
+            rectangle_marker_c1bcff63c6bb4ff3bfc0ec4148f8d038.bindPopup(popup_0846ee18cb934ad198d47cd5287e6e3a);
+
+            
+        
+    
+            var rectangle_marker_f5affda4502f4ba2a5eb39ba72eaca4d = L.rectangle(
+                                  [[40.756154200000005,-73.96668840000001],
+                                  [40.747766,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#d0e800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_dd6eab43274543b08e505891dc8a560b = L.popup({maxWidth: '300'});
+
+            
+                var html_1c44c02589834facb057ecd846377aec = $('<div id="html_1c44c02589834facb057ecd846377aec" style="width: 100.0%; height: 100.0%;">Region number:1331<br> Trips from this area: 13</div>')[0];
+                popup_dd6eab43274543b08e505891dc8a560b.setContent(html_1c44c02589834facb057ecd846377aec);
+            
+
+            rectangle_marker_f5affda4502f4ba2a5eb39ba72eaca4d.bindPopup(popup_dd6eab43274543b08e505891dc8a560b);
+
+            
+        
+    
+            var rectangle_marker_2e88c2f380fe486da5dd51ffc0c398a6 = L.rectangle(
+                                  [[40.7645424,-73.96668840000001],
+                                  [40.756154200000005,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#ff7800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_c48e40d6fd284fabb8f6cf9a680ed976 = L.popup({maxWidth: '300'});
+
+            
+                var html_683e0b4da3c94085a1be76da30cd9942 = $('<div id="html_683e0b4da3c94085a1be76da30cd9942" style="width: 100.0%; height: 100.0%;">Region number:1332<br> Trips from this area: 140</div>')[0];
+                popup_c48e40d6fd284fabb8f6cf9a680ed976.setContent(html_683e0b4da3c94085a1be76da30cd9942);
+            
+
+            rectangle_marker_2e88c2f380fe486da5dd51ffc0c398a6.bindPopup(popup_c48e40d6fd284fabb8f6cf9a680ed976);
+
+            
+        
+    
+            var rectangle_marker_dc157cdc4372426289fada815ee4c3a7 = L.rectangle(
+                                  [[40.7729306,-73.96668840000001],
+                                  [40.7645424,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#ff8800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_c7cbb3b65a66420786646df3fb290868 = L.popup({maxWidth: '300'});
+
+            
+                var html_bcbe74c4d60948f9a8af1ee08162b1a6 = $('<div id="html_bcbe74c4d60948f9a8af1ee08162b1a6" style="width: 100.0%; height: 100.0%;">Region number:1333<br> Trips from this area: 113</div>')[0];
+                popup_c7cbb3b65a66420786646df3fb290868.setContent(html_bcbe74c4d60948f9a8af1ee08162b1a6);
+            
+
+            rectangle_marker_dc157cdc4372426289fada815ee4c3a7.bindPopup(popup_c7cbb3b65a66420786646df3fb290868);
+
+            
+        
+    
+            var rectangle_marker_af2e4655ad074b26b9ab3dea71eb062d = L.rectangle(
+                                  [[40.781318799999994,-73.96668840000001],
+                                  [40.7729306,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#ff9400',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_bdceb61a1e084f559481b0cfee53288e = L.popup({maxWidth: '300'});
+
+            
+                var html_c08a071ad22a41e3bd0510315eb0003a = $('<div id="html_c08a071ad22a41e3bd0510315eb0003a" style="width: 100.0%; height: 100.0%;">Region number:1334<br> Trips from this area: 98</div>')[0];
+                popup_bdceb61a1e084f559481b0cfee53288e.setContent(html_c08a071ad22a41e3bd0510315eb0003a);
+            
+
+            rectangle_marker_af2e4655ad074b26b9ab3dea71eb062d.bindPopup(popup_bdceb61a1e084f559481b0cfee53288e);
+
+            
+        
+    
+            var rectangle_marker_87ff3007ec3c495da7024170b2feba77 = L.rectangle(
+                                  [[40.789707,-73.96668840000001],
+                                  [40.781318799999994,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#e4f200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_74435be4086643e89af04f9e0a821ae5 = L.popup({maxWidth: '300'});
+
+            
+                var html_a59e338b0ffc4136ad3f4d0a71c1d43e = $('<div id="html_a59e338b0ffc4136ad3f4d0a71c1d43e" style="width: 100.0%; height: 100.0%;">Region number:1335<br> Trips from this area: 17</div>')[0];
+                popup_74435be4086643e89af04f9e0a821ae5.setContent(html_a59e338b0ffc4136ad3f4d0a71c1d43e);
+            
+
+            rectangle_marker_87ff3007ec3c495da7024170b2feba77.bindPopup(popup_74435be4086643e89af04f9e0a821ae5);
+
+            
+        
+    
+            var rectangle_marker_205b342b5df14f2aaf90c5bc44fd61c9 = L.rectangle(
+                                  [[40.798095200000006,-73.96668840000001],
+                                  [40.789707,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#edf600',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_c33c68dc96c7487993714f96a683427e = L.popup({maxWidth: '300'});
+
+            
+                var html_afc74e12b68f41d5a253063220a8ad5d = $('<div id="html_afc74e12b68f41d5a253063220a8ad5d" style="width: 100.0%; height: 100.0%;">Region number:1336<br> Trips from this area: 19</div>')[0];
+                popup_c33c68dc96c7487993714f96a683427e.setContent(html_afc74e12b68f41d5a253063220a8ad5d);
+            
+
+            rectangle_marker_205b342b5df14f2aaf90c5bc44fd61c9.bindPopup(popup_c33c68dc96c7487993714f96a683427e);
+
+            
+        
+    
+            var rectangle_marker_20d64b4890cf49f5849ebaa0fd1fba33 = L.rectangle(
+                                  [[40.8064834,-73.96668840000001],
+                                  [40.798095200000006,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#ffaf00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_095b315aa04343018a5b01d06e17ee62 = L.popup({maxWidth: '300'});
+
+            
+                var html_48e6cd43941a47b18f6b9f2405b42771 = $('<div id="html_48e6cd43941a47b18f6b9f2405b42771" style="width: 100.0%; height: 100.0%;">Region number:1337<br> Trips from this area: 69</div>')[0];
+                popup_095b315aa04343018a5b01d06e17ee62.setContent(html_48e6cd43941a47b18f6b9f2405b42771);
+            
+
+            rectangle_marker_20d64b4890cf49f5849ebaa0fd1fba33.bindPopup(popup_095b315aa04343018a5b01d06e17ee62);
+
+            
+        
+    
+            var rectangle_marker_d83c8546841644c3a78e7134c33eed39 = L.rectangle(
+                                  [[40.814871600000004,-73.96668840000001],
+                                  [40.8064834,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#fbfd00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_24ba517123c54d03a7a27d9a4d8ee2a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f0e5566740e4153a2406a7dfc3c4d45 = $('<div id="html_3f0e5566740e4153a2406a7dfc3c4d45" style="width: 100.0%; height: 100.0%;">Region number:1338<br> Trips from this area: 23</div>')[0];
+                popup_24ba517123c54d03a7a27d9a4d8ee2a9.setContent(html_3f0e5566740e4153a2406a7dfc3c4d45);
+            
+
+            rectangle_marker_d83c8546841644c3a78e7134c33eed39.bindPopup(popup_24ba517123c54d03a7a27d9a4d8ee2a9);
+
+            
+        
+    
+            var rectangle_marker_658a37e559e14839b896223ab8b8f0bd = L.rectangle(
+                                  [[40.8232598,-73.96668840000001],
+                                  [40.814871600000004,-73.95557679999999]],
+                {
+                    color: 'black',
+                    fillColor: '#9acd00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_bb8fa71830fc45468a42db24d9191bc2 = L.popup({maxWidth: '300'});
+
+            
+                var html_035659f8dd6f480aafa3546bff3c8338 = $('<div id="html_035659f8dd6f480aafa3546bff3c8338" style="width: 100.0%; height: 100.0%;">Region number:1339<br> Trips from this area: 6</div>')[0];
+                popup_bb8fa71830fc45468a42db24d9191bc2.setContent(html_035659f8dd6f480aafa3546bff3c8338);
+            
+
+            rectangle_marker_658a37e559e14839b896223ab8b8f0bd.bindPopup(popup_bb8fa71830fc45468a42db24d9191bc2);
+
+            
+        
+    
+            var rectangle_marker_8a625261ade64a0788d7df196825a9f6 = L.rectangle(
+                                  [[40.7142132,-73.95557679999999],
+                                  [40.705825,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#f8fc00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_f5c06d3ef58140bbb233988fe3cf5c0d = L.popup({maxWidth: '300'});
+
+            
+                var html_18f438800f0143aa9ca3f1bdbf559805 = $('<div id="html_18f438800f0143aa9ca3f1bdbf559805" style="width: 100.0%; height: 100.0%;">Region number:1376<br> Trips from this area: 22</div>')[0];
+                popup_f5c06d3ef58140bbb233988fe3cf5c0d.setContent(html_18f438800f0143aa9ca3f1bdbf559805);
+            
+
+            rectangle_marker_8a625261ade64a0788d7df196825a9f6.bindPopup(popup_f5c06d3ef58140bbb233988fe3cf5c0d);
+
+            
+        
+    
+            var rectangle_marker_4f9694c7a27946e88b49211b96295930 = L.rectangle(
+                                  [[40.722601399999995,-73.95557679999999],
+                                  [40.7142132,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#e4f200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_fcfaa4cd5fe64119b3f321971daeb960 = L.popup({maxWidth: '300'});
+
+            
+                var html_aca03845e911438199c3fa610f274648 = $('<div id="html_aca03845e911438199c3fa610f274648" style="width: 100.0%; height: 100.0%;">Region number:1377<br> Trips from this area: 17</div>')[0];
+                popup_fcfaa4cd5fe64119b3f321971daeb960.setContent(html_aca03845e911438199c3fa610f274648);
+            
+
+            rectangle_marker_4f9694c7a27946e88b49211b96295930.bindPopup(popup_fcfaa4cd5fe64119b3f321971daeb960);
+
+            
+        
+    
+            var rectangle_marker_33cc6c03c539459a88573ec36997d885 = L.rectangle(
+                                  [[40.7309896,-73.95557679999999],
+                                  [40.722601399999995,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#e4f200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_d4900ae23f994e65add0e900701be892 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd3acbcc42e0449195e5f1a050976a21 = $('<div id="html_cd3acbcc42e0449195e5f1a050976a21" style="width: 100.0%; height: 100.0%;">Region number:1378<br> Trips from this area: 17</div>')[0];
+                popup_d4900ae23f994e65add0e900701be892.setContent(html_cd3acbcc42e0449195e5f1a050976a21);
+            
+
+            rectangle_marker_33cc6c03c539459a88573ec36997d885.bindPopup(popup_d4900ae23f994e65add0e900701be892);
+
+            
+        
+    
+            var rectangle_marker_dc37c39e31444402b0114294d1f4ec8b = L.rectangle(
+                                  [[40.747766,-73.95557679999999],
+                                  [40.7393778,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#c4e200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_d61e7fa121d94fb4bdaf35638a93cbd6 = L.popup({maxWidth: '300'});
+
+            
+                var html_3155620c2ad84d678744344de20429d7 = $('<div id="html_3155620c2ad84d678744344de20429d7" style="width: 100.0%; height: 100.0%;">Region number:1380<br> Trips from this area: 11</div>')[0];
+                popup_d61e7fa121d94fb4bdaf35638a93cbd6.setContent(html_3155620c2ad84d678744344de20429d7);
+            
+
+            rectangle_marker_dc37c39e31444402b0114294d1f4ec8b.bindPopup(popup_d61e7fa121d94fb4bdaf35638a93cbd6);
+
+            
+        
+    
+            var rectangle_marker_182ffc88f931490c9d1fca35873d80fd = L.rectangle(
+                                  [[40.7645424,-73.95557679999999],
+                                  [40.756154200000005,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#cbe500',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_dbd8621bebc94f69a0d1e54ed82cba2a = L.popup({maxWidth: '300'});
+
+            
+                var html_143befad893341d980951b863493a82b = $('<div id="html_143befad893341d980951b863493a82b" style="width: 100.0%; height: 100.0%;">Region number:1382<br> Trips from this area: 12</div>')[0];
+                popup_dbd8621bebc94f69a0d1e54ed82cba2a.setContent(html_143befad893341d980951b863493a82b);
+            
+
+            rectangle_marker_182ffc88f931490c9d1fca35873d80fd.bindPopup(popup_dbd8621bebc94f69a0d1e54ed82cba2a);
+
+            
+        
+    
+            var rectangle_marker_6209261203804ad9b63338b126338e38 = L.rectangle(
+                                  [[40.7729306,-73.95557679999999],
+                                  [40.7645424,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#ffd600',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_8e63c8f9b1d642b8aacd9541407df8b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_539a4924f6384bb384d7d7f794cb44be = $('<div id="html_539a4924f6384bb384d7d7f794cb44be" style="width: 100.0%; height: 100.0%;">Region number:1383<br> Trips from this area: 42</div>')[0];
+                popup_8e63c8f9b1d642b8aacd9541407df8b4.setContent(html_539a4924f6384bb384d7d7f794cb44be);
+            
+
+            rectangle_marker_6209261203804ad9b63338b126338e38.bindPopup(popup_8e63c8f9b1d642b8aacd9541407df8b4);
+
+            
+        
+    
+            var rectangle_marker_4ba06f64d8574164bfa04eabb59a3631 = L.rectangle(
+                                  [[40.781318799999994,-73.95557679999999],
+                                  [40.7729306,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#ff6800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_cb232cee4d3f4a288182a70702b7dad3 = L.popup({maxWidth: '300'});
+
+            
+                var html_b1300dba6db9439dac7c475038a86462 = $('<div id="html_b1300dba6db9439dac7c475038a86462" style="width: 100.0%; height: 100.0%;">Region number:1384<br> Trips from this area: 171</div>')[0];
+                popup_cb232cee4d3f4a288182a70702b7dad3.setContent(html_b1300dba6db9439dac7c475038a86462);
+            
+
+            rectangle_marker_4ba06f64d8574164bfa04eabb59a3631.bindPopup(popup_cb232cee4d3f4a288182a70702b7dad3);
+
+            
+        
+    
+            var rectangle_marker_a7e63f1caea54a12a22a717059a5ea90 = L.rectangle(
+                                  [[40.789707,-73.95557679999999],
+                                  [40.781318799999994,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#ffbb00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_7aed712a30994d6a9b69284c8ae3ddf3 = L.popup({maxWidth: '300'});
+
+            
+                var html_bd399eb178924c1d8ceb80cd8c4989be = $('<div id="html_bd399eb178924c1d8ceb80cd8c4989be" style="width: 100.0%; height: 100.0%;">Region number:1385<br> Trips from this area: 59</div>')[0];
+                popup_7aed712a30994d6a9b69284c8ae3ddf3.setContent(html_bd399eb178924c1d8ceb80cd8c4989be);
+            
+
+            rectangle_marker_a7e63f1caea54a12a22a717059a5ea90.bindPopup(popup_7aed712a30994d6a9b69284c8ae3ddf3);
+
+            
+        
+    
+            var rectangle_marker_277d0b1ed7e34e15887418271eb15b34 = L.rectangle(
+                                  [[40.798095200000006,-73.95557679999999],
+                                  [40.789707,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#fff200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_664ff4daff394d998320e2952a3e93c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_fbc79dc0ca78482080d745851f633563 = $('<div id="html_fbc79dc0ca78482080d745851f633563" style="width: 100.0%; height: 100.0%;">Region number:1386<br> Trips from this area: 29</div>')[0];
+                popup_664ff4daff394d998320e2952a3e93c5.setContent(html_fbc79dc0ca78482080d745851f633563);
+            
+
+            rectangle_marker_277d0b1ed7e34e15887418271eb15b34.bindPopup(popup_664ff4daff394d998320e2952a3e93c5);
+
+            
+        
+    
+            var rectangle_marker_cab10a5107b04c65b9e11b56bb34d322 = L.rectangle(
+                                  [[40.8064834,-73.95557679999999],
+                                  [40.798095200000006,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#fff200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_16a06b18673247dcbf223cf3e181f4b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_a5401262f36049e1969ea9f043ae7d42 = $('<div id="html_a5401262f36049e1969ea9f043ae7d42" style="width: 100.0%; height: 100.0%;">Region number:1387<br> Trips from this area: 29</div>')[0];
+                popup_16a06b18673247dcbf223cf3e181f4b3.setContent(html_a5401262f36049e1969ea9f043ae7d42);
+            
+
+            rectangle_marker_cab10a5107b04c65b9e11b56bb34d322.bindPopup(popup_16a06b18673247dcbf223cf3e181f4b3);
+
+            
+        
+    
+            var rectangle_marker_de65fa9c16d34b9eb3943c0dcf65ca49 = L.rectangle(
+                                  [[40.814871600000004,-73.95557679999999],
+                                  [40.8064834,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#ffeb00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_15af0328c4824c89a1daff5de4ec8380 = L.popup({maxWidth: '300'});
+
+            
+                var html_af686c4ca3174d488fa51f8171bed217 = $('<div id="html_af686c4ca3174d488fa51f8171bed217" style="width: 100.0%; height: 100.0%;">Region number:1388<br> Trips from this area: 32</div>')[0];
+                popup_15af0328c4824c89a1daff5de4ec8380.setContent(html_af686c4ca3174d488fa51f8171bed217);
+            
+
+            rectangle_marker_de65fa9c16d34b9eb3943c0dcf65ca49.bindPopup(popup_15af0328c4824c89a1daff5de4ec8380);
+
+            
+        
+    
+            var rectangle_marker_c313a911bedd472b8a6a55eb29628579 = L.rectangle(
+                                  [[40.8232598,-73.95557679999999],
+                                  [40.814871600000004,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#e4f200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_82975a4f13ba44d183fdb1d93da1df44 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ff4df9619e3475cb6ede7b559f007d6 = $('<div id="html_0ff4df9619e3475cb6ede7b559f007d6" style="width: 100.0%; height: 100.0%;">Region number:1389<br> Trips from this area: 17</div>')[0];
+                popup_82975a4f13ba44d183fdb1d93da1df44.setContent(html_0ff4df9619e3475cb6ede7b559f007d6);
+            
+
+            rectangle_marker_c313a911bedd472b8a6a55eb29628579.bindPopup(popup_82975a4f13ba44d183fdb1d93da1df44);
+
+            
+        
+    
+            var rectangle_marker_d2946594fc80448bb3bdcca6c71a026c = L.rectangle(
+                                  [[40.831648,-73.95557679999999],
+                                  [40.8232598,-73.9444652]],
+                {
+                    color: 'black',
+                    fillColor: '#f4fa00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_8c8b744869ca4eff996ab94def12031b = L.popup({maxWidth: '300'});
+
+            
+                var html_a4789a75dcea404c9dc5312493ea172a = $('<div id="html_a4789a75dcea404c9dc5312493ea172a" style="width: 100.0%; height: 100.0%;">Region number:1390<br> Trips from this area: 21</div>')[0];
+                popup_8c8b744869ca4eff996ab94def12031b.setContent(html_a4789a75dcea404c9dc5312493ea172a);
+            
+
+            rectangle_marker_d2946594fc80448bb3bdcca6c71a026c.bindPopup(popup_8c8b744869ca4eff996ab94def12031b);
+
+            
+        
+    
+            var rectangle_marker_47b424a448344e629fc77a6198755a10 = L.rectangle(
+                                  [[40.7142132,-73.9444652],
+                                  [40.705825,-73.93335359999999]],
+                {
+                    color: 'black',
+                    fillColor: '#c4e200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_f633050d7bbc4fddbfa41504f4a78cbc = L.popup({maxWidth: '300'});
+
+            
+                var html_09f999b27deb4115bebd858a714872ee = $('<div id="html_09f999b27deb4115bebd858a714872ee" style="width: 100.0%; height: 100.0%;">Region number:1426<br> Trips from this area: 11</div>')[0];
+                popup_f633050d7bbc4fddbfa41504f4a78cbc.setContent(html_09f999b27deb4115bebd858a714872ee);
+            
+
+            rectangle_marker_47b424a448344e629fc77a6198755a10.bindPopup(popup_f633050d7bbc4fddbfa41504f4a78cbc);
+
+            
+        
+    
+            var rectangle_marker_99e50d4be69b4b3b91f267c6c0b4d955 = L.rectangle(
+                                  [[40.756154200000005,-73.9444652],
+                                  [40.747766,-73.93335359999999]],
+                {
+                    color: 'black',
+                    fillColor: '#e9f400',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_5b52d7a5f0754d3cb9c026d358ee94fc = L.popup({maxWidth: '300'});
+
+            
+                var html_0a8ecc96af744067996312ada0a433f0 = $('<div id="html_0a8ecc96af744067996312ada0a433f0" style="width: 100.0%; height: 100.0%;">Region number:1431<br> Trips from this area: 18</div>')[0];
+                popup_5b52d7a5f0754d3cb9c026d358ee94fc.setContent(html_0a8ecc96af744067996312ada0a433f0);
+            
+
+            rectangle_marker_99e50d4be69b4b3b91f267c6c0b4d955.bindPopup(popup_5b52d7a5f0754d3cb9c026d358ee94fc);
+
+            
+        
+    
+            var rectangle_marker_61b02eec3800481cad918d471bb1c20f = L.rectangle(
+                                  [[40.781318799999994,-73.9444652],
+                                  [40.7729306,-73.93335359999999]],
+                {
+                    color: 'black',
+                    fillColor: '#008000',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_a41f1bb824f7416d8eed324183f1862d = L.popup({maxWidth: '300'});
+
+            
+                var html_bfa3613e1cce4622b2676ba48bc11512 = $('<div id="html_bfa3613e1cce4622b2676ba48bc11512" style="width: 100.0%; height: 100.0%;">Region number:1434<br> Trips from this area: 0</div>')[0];
+                popup_a41f1bb824f7416d8eed324183f1862d.setContent(html_bfa3613e1cce4622b2676ba48bc11512);
+            
+
+            rectangle_marker_61b02eec3800481cad918d471bb1c20f.bindPopup(popup_a41f1bb824f7416d8eed324183f1862d);
+
+            
+        
+    
+            var rectangle_marker_c66568169fcd45ebbe24d01b75c0c751 = L.rectangle(
+                                  [[40.789707,-73.9444652],
+                                  [40.781318799999994,-73.93335359999999]],
+                {
+                    color: 'black',
+                    fillColor: '#c4e200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_63cce0e2d3a54b9190d3d815c6125e42 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b7686fecc6c4e4894b2d92de786e0bc = $('<div id="html_1b7686fecc6c4e4894b2d92de786e0bc" style="width: 100.0%; height: 100.0%;">Region number:1435<br> Trips from this area: 11</div>')[0];
+                popup_63cce0e2d3a54b9190d3d815c6125e42.setContent(html_1b7686fecc6c4e4894b2d92de786e0bc);
+            
+
+            rectangle_marker_c66568169fcd45ebbe24d01b75c0c751.bindPopup(popup_63cce0e2d3a54b9190d3d815c6125e42);
+
+            
+        
+    
+            var rectangle_marker_748956d3caca4ce892e8ff791e4edbb7 = L.rectangle(
+                                  [[40.798095200000006,-73.9444652],
+                                  [40.789707,-73.93335359999999]],
+                {
+                    color: 'black',
+                    fillColor: '#fffe00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_13b435464fb543dabdf32b12342b010a = L.popup({maxWidth: '300'});
+
+            
+                var html_a7f0a35bef234a489c4f8f1e3f750dfb = $('<div id="html_a7f0a35bef234a489c4f8f1e3f750dfb" style="width: 100.0%; height: 100.0%;">Region number:1436<br> Trips from this area: 25</div>')[0];
+                popup_13b435464fb543dabdf32b12342b010a.setContent(html_a7f0a35bef234a489c4f8f1e3f750dfb);
+            
+
+            rectangle_marker_748956d3caca4ce892e8ff791e4edbb7.bindPopup(popup_13b435464fb543dabdf32b12342b010a);
+
+            
+        
+    
+            var rectangle_marker_9baf92fecf214719b75d39e4348b13e4 = L.rectangle(
+                                  [[40.8064834,-73.9444652],
+                                  [40.798095200000006,-73.93335359999999]],
+                {
+                    color: 'black',
+                    fillColor: '#ffe800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_5954522e784545509677568f9eae9129 = L.popup({maxWidth: '300'});
+
+            
+                var html_56d0533532ec460daf0a9c1ad64b0758 = $('<div id="html_56d0533532ec460daf0a9c1ad64b0758" style="width: 100.0%; height: 100.0%;">Region number:1437<br> Trips from this area: 33</div>')[0];
+                popup_5954522e784545509677568f9eae9129.setContent(html_56d0533532ec460daf0a9c1ad64b0758);
+            
+
+            rectangle_marker_9baf92fecf214719b75d39e4348b13e4.bindPopup(popup_5954522e784545509677568f9eae9129);
+
+            
+        
+    
+            var rectangle_marker_a9d67fd93366448bb27b8f7514b2ce84 = L.rectangle(
+                                  [[40.814871600000004,-73.9444652],
+                                  [40.8064834,-73.93335359999999]],
+                {
+                    color: 'black',
+                    fillColor: '#b6db00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_668abe0754774e9fb81a11d37cfa1913 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4075c5cd4fd4cbbbd8706d7d1993f2d = $('<div id="html_e4075c5cd4fd4cbbbd8706d7d1993f2d" style="width: 100.0%; height: 100.0%;">Region number:1438<br> Trips from this area: 9</div>')[0];
+                popup_668abe0754774e9fb81a11d37cfa1913.setContent(html_e4075c5cd4fd4cbbbd8706d7d1993f2d);
+            
+
+            rectangle_marker_a9d67fd93366448bb27b8f7514b2ce84.bindPopup(popup_668abe0754774e9fb81a11d37cfa1913);
+
+            
+        
+    
+            var rectangle_marker_7f7cc828e729472aafa5e55cddea2436 = L.rectangle(
+                                  [[40.8232598,-73.9444652],
+                                  [40.814871600000004,-73.93335359999999]],
+                {
+                    color: 'black',
+                    fillColor: '#b6db00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_5ef0a53929f54c2aa44ae5279e8f6d20 = L.popup({maxWidth: '300'});
+
+            
+                var html_96c6fa25d11345b4a2fb8d5c261b850b = $('<div id="html_96c6fa25d11345b4a2fb8d5c261b850b" style="width: 100.0%; height: 100.0%;">Region number:1439<br> Trips from this area: 9</div>')[0];
+                popup_5ef0a53929f54c2aa44ae5279e8f6d20.setContent(html_96c6fa25d11345b4a2fb8d5c261b850b);
+            
+
+            rectangle_marker_7f7cc828e729472aafa5e55cddea2436.bindPopup(popup_5ef0a53929f54c2aa44ae5279e8f6d20);
+
+            
+        
+    
+            var rectangle_marker_7128b2f8a1784ce6a5454aa0f374a3e1 = L.rectangle(
+                                  [[40.8400362,-73.9444652],
+                                  [40.831648,-73.93335359999999]],
+                {
+                    color: 'black',
+                    fillColor: '#8dc700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_b4aa080775e943bc887e06e7bbe111db = L.popup({maxWidth: '300'});
+
+            
+                var html_e47c5752b10e4dbab04f9dfea617c7a1 = $('<div id="html_e47c5752b10e4dbab04f9dfea617c7a1" style="width: 100.0%; height: 100.0%;">Region number:1441<br> Trips from this area: 5</div>')[0];
+                popup_b4aa080775e943bc887e06e7bbe111db.setContent(html_e47c5752b10e4dbab04f9dfea617c7a1);
+            
+
+            rectangle_marker_7128b2f8a1784ce6a5454aa0f374a3e1.bindPopup(popup_b4aa080775e943bc887e06e7bbe111db);
+
+            
+        
+    
+            var rectangle_marker_3c6b63685ad74a49a5f79fa8b9f1df93 = L.rectangle(
+                                  [[40.8484244,-73.9444652],
+                                  [40.8400362,-73.93335359999999]],
+                {
+                    color: 'black',
+                    fillColor: '#c4e200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_e9ad6d19f2d74645b4069ab87c43659e = L.popup({maxWidth: '300'});
+
+            
+                var html_b7c71cf945674f28b2530a79916b867a = $('<div id="html_b7c71cf945674f28b2530a79916b867a" style="width: 100.0%; height: 100.0%;">Region number:1442<br> Trips from this area: 11</div>')[0];
+                popup_e9ad6d19f2d74645b4069ab87c43659e.setContent(html_b7c71cf945674f28b2530a79916b867a);
+            
+
+            rectangle_marker_3c6b63685ad74a49a5f79fa8b9f1df93.bindPopup(popup_e9ad6d19f2d74645b4069ab87c43659e);
+
+            
+        
+    
+            var rectangle_marker_a5d3851dc1984f69bbb51d473edb1cd7 = L.rectangle(
+                                  [[40.747766,-73.93335359999999],
+                                  [40.7393778,-73.922242]],
+                {
+                    color: 'black',
+                    fillColor: '#add700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_32109687393940ba92b5b863dec134c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad4c9dfe8e034acd95ffe9e82be93aa9 = $('<div id="html_ad4c9dfe8e034acd95ffe9e82be93aa9" style="width: 100.0%; height: 100.0%;">Region number:1480<br> Trips from this area: 8</div>')[0];
+                popup_32109687393940ba92b5b863dec134c0.setContent(html_ad4c9dfe8e034acd95ffe9e82be93aa9);
+            
+
+            rectangle_marker_a5d3851dc1984f69bbb51d473edb1cd7.bindPopup(popup_32109687393940ba92b5b863dec134c0);
+
+            
+        
+    
+            var rectangle_marker_a0aa44305f5740588bba4d8d79ba4a55 = L.rectangle(
+                                  [[40.7645424,-73.93335359999999],
+                                  [40.756154200000005,-73.922242]],
+                {
+                    color: 'black',
+                    fillColor: '#cbe500',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_20248373ed3649f0a76ea526831e8d68 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7940a6c65be4d3a92355cab383713de = $('<div id="html_f7940a6c65be4d3a92355cab383713de" style="width: 100.0%; height: 100.0%;">Region number:1482<br> Trips from this area: 12</div>')[0];
+                popup_20248373ed3649f0a76ea526831e8d68.setContent(html_f7940a6c65be4d3a92355cab383713de);
+            
+
+            rectangle_marker_a0aa44305f5740588bba4d8d79ba4a55.bindPopup(popup_20248373ed3649f0a76ea526831e8d68);
+
+            
+        
+    
+            var rectangle_marker_b5073f5cf24e4ee9a7cda44fbacf73cc = L.rectangle(
+                                  [[40.7729306,-73.93335359999999],
+                                  [40.7645424,-73.922242]],
+                {
+                    color: 'black',
+                    fillColor: '#add700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_60c31f64ead94ecf82f9eb586c778b0f = L.popup({maxWidth: '300'});
+
+            
+                var html_2a075fbbd5bf42aeb023fbb45529619b = $('<div id="html_2a075fbbd5bf42aeb023fbb45529619b" style="width: 100.0%; height: 100.0%;">Region number:1483<br> Trips from this area: 8</div>')[0];
+                popup_60c31f64ead94ecf82f9eb586c778b0f.setContent(html_2a075fbbd5bf42aeb023fbb45529619b);
+            
+
+            rectangle_marker_b5073f5cf24e4ee9a7cda44fbacf73cc.bindPopup(popup_60c31f64ead94ecf82f9eb586c778b0f);
+
+            
+        
+    
+            var rectangle_marker_8e8bbc4ed543479c8819b4e4a158f213 = L.rectangle(
+                                  [[40.747766,-73.922242],
+                                  [40.7393778,-73.9111304]],
+                {
+                    color: 'black',
+                    fillColor: '#cbe500',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_4b37fb4d5a484bafa1ce338c4bb8d821 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d293a6ab8994d068a9f525be6626e71 = $('<div id="html_5d293a6ab8994d068a9f525be6626e71" style="width: 100.0%; height: 100.0%;">Region number:1530<br> Trips from this area: 12</div>')[0];
+                popup_4b37fb4d5a484bafa1ce338c4bb8d821.setContent(html_5d293a6ab8994d068a9f525be6626e71);
+            
+
+            rectangle_marker_8e8bbc4ed543479c8819b4e4a158f213.bindPopup(popup_4b37fb4d5a484bafa1ce338c4bb8d821);
+
+            
+        
+    
+            var rectangle_marker_d2c2ab5422b94946a1ea6d2e2f20b724 = L.rectangle(
+                                  [[40.7645424,-73.922242],
+                                  [40.756154200000005,-73.9111304]],
+                {
+                    color: 'black',
+                    fillColor: '#d0e800',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_b4ecce1870a84dacbf32c413225c7f95 = L.popup({maxWidth: '300'});
+
+            
+                var html_ab87ac9d788a44c49a4fefc9edb10d26 = $('<div id="html_ab87ac9d788a44c49a4fefc9edb10d26" style="width: 100.0%; height: 100.0%;">Region number:1532<br> Trips from this area: 13</div>')[0];
+                popup_b4ecce1870a84dacbf32c413225c7f95.setContent(html_ab87ac9d788a44c49a4fefc9edb10d26);
+            
+
+            rectangle_marker_d2c2ab5422b94946a1ea6d2e2f20b724.bindPopup(popup_b4ecce1870a84dacbf32c413225c7f95);
+
+            
+        
+    
+            var rectangle_marker_9229364b6f97442ca048256392cc1e59 = L.rectangle(
+                                  [[40.7729306,-73.922242],
+                                  [40.7645424,-73.9111304]],
+                {
+                    color: 'black',
+                    fillColor: '#e4f200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_843454a3dd2c4fc199f839af3fc9dcc6 = L.popup({maxWidth: '300'});
+
+            
+                var html_d5fa4f5927aa4c93905f88855d523434 = $('<div id="html_d5fa4f5927aa4c93905f88855d523434" style="width: 100.0%; height: 100.0%;">Region number:1533<br> Trips from this area: 17</div>')[0];
+                popup_843454a3dd2c4fc199f839af3fc9dcc6.setContent(html_d5fa4f5927aa4c93905f88855d523434);
+            
+
+            rectangle_marker_9229364b6f97442ca048256392cc1e59.bindPopup(popup_843454a3dd2c4fc199f839af3fc9dcc6);
+
+            
+        
+    
+            var rectangle_marker_45dc55074e8d4c669bd9659be2eb76f1 = L.rectangle(
+                                  [[40.747766,-73.9111304],
+                                  [40.7393778,-73.9000188]],
+                {
+                    color: 'black',
+                    fillColor: '#6db700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_1c8cf78b7c9643519a522ffa654396ee = L.popup({maxWidth: '300'});
+
+            
+                var html_f49fa30f0edb47aa9c4dc916cb257249 = $('<div id="html_f49fa30f0edb47aa9c4dc916cb257249" style="width: 100.0%; height: 100.0%;">Region number:1580<br> Trips from this area: 3</div>')[0];
+                popup_1c8cf78b7c9643519a522ffa654396ee.setContent(html_f49fa30f0edb47aa9c4dc916cb257249);
+            
+
+            rectangle_marker_45dc55074e8d4c669bd9659be2eb76f1.bindPopup(popup_1c8cf78b7c9643519a522ffa654396ee);
+
+            
+        
+    
+            var rectangle_marker_11e6198fb30449b09aa425c578c7c26c = L.rectangle(
+                                  [[40.747766,-73.9000188],
+                                  [40.7393778,-73.8889072]],
+                {
+                    color: 'black',
+                    fillColor: '#8dc700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_eac4e46a03ca47b1836c35da7806d76b = L.popup({maxWidth: '300'});
+
+            
+                var html_736650636eb643b093f462208701a4a6 = $('<div id="html_736650636eb643b093f462208701a4a6" style="width: 100.0%; height: 100.0%;">Region number:1630<br> Trips from this area: 5</div>')[0];
+                popup_eac4e46a03ca47b1836c35da7806d76b.setContent(html_736650636eb643b093f462208701a4a6);
+            
+
+            rectangle_marker_11e6198fb30449b09aa425c578c7c26c.bindPopup(popup_eac4e46a03ca47b1836c35da7806d76b);
+
+            
+        
+    
+            var rectangle_marker_72a845344a7f4e58aec0ed6ef0d686ed = L.rectangle(
+                                  [[40.781318799999994,-73.8889072],
+                                  [40.7729306,-73.87779559999998]],
+                {
+                    color: 'black',
+                    fillColor: '#a4d200',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_9b5ef7a127a0420880dad88887d94478 = L.popup({maxWidth: '300'});
+
+            
+                var html_19ae5ac4d27d4845a7a66ae539ad0e9c = $('<div id="html_19ae5ac4d27d4845a7a66ae539ad0e9c" style="width: 100.0%; height: 100.0%;">Region number:1684<br> Trips from this area: 7</div>')[0];
+                popup_9b5ef7a127a0420880dad88887d94478.setContent(html_19ae5ac4d27d4845a7a66ae539ad0e9c);
+            
+
+            rectangle_marker_72a845344a7f4e58aec0ed6ef0d686ed.bindPopup(popup_9b5ef7a127a0420880dad88887d94478);
+
+            
+        
+    
+            var rectangle_marker_b63a6b069be945f0be223c6d36e3194e = L.rectangle(
+                                  [[40.7729306,-73.87779559999998],
+                                  [40.7645424,-73.86668399999999]],
+                {
+                    color: 'black',
+                    fillColor: '#b6db00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_eae0828c089e4ee7a1d0810b984e3e14 = L.popup({maxWidth: '300'});
+
+            
+                var html_f86008c77ac544e38239f73920d1fcfd = $('<div id="html_f86008c77ac544e38239f73920d1fcfd" style="width: 100.0%; height: 100.0%;">Region number:1733<br> Trips from this area: 9</div>')[0];
+                popup_eae0828c089e4ee7a1d0810b984e3e14.setContent(html_f86008c77ac544e38239f73920d1fcfd);
+            
+
+            rectangle_marker_b63a6b069be945f0be223c6d36e3194e.bindPopup(popup_eae0828c089e4ee7a1d0810b984e3e14);
+
+            
+        
+    
+            var rectangle_marker_83ae16e478a94089958b1f0952622bcb = L.rectangle(
+                                  [[40.781318799999994,-73.87779559999998],
+                                  [40.7729306,-73.86668399999999]],
+                {
+                    color: 'black',
+                    fillColor: '#ff1700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_5f3b9eaa9f514634ae101e945ac7020f = L.popup({maxWidth: '300'});
+
+            
+                var html_496accd401f64439866c94ad64c3701b = $('<div id="html_496accd401f64439866c94ad64c3701b" style="width: 100.0%; height: 100.0%;">Region number:1734<br> Trips from this area: 479</div>')[0];
+                popup_5f3b9eaa9f514634ae101e945ac7020f.setContent(html_496accd401f64439866c94ad64c3701b);
+            
+
+            rectangle_marker_83ae16e478a94089958b1f0952622bcb.bindPopup(popup_5f3b9eaa9f514634ae101e945ac7020f);
+
+            
+        
+    
+            var rectangle_marker_a2742c9e9e3248d7ae3d07a2ca8e3cdd = L.rectangle(
+                                  [[40.7729306,-73.86668399999999],
+                                  [40.7645424,-73.8555724]],
+                {
+                    color: 'black',
+                    fillColor: '#ff4b00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_1837b815c14f4765b006a439636cfea0 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6810dac6d7a43d4886d78feae90cdea = $('<div id="html_c6810dac6d7a43d4886d78feae90cdea" style="width: 100.0%; height: 100.0%;">Region number:1783<br> Trips from this area: 247</div>')[0];
+                popup_1837b815c14f4765b006a439636cfea0.setContent(html_c6810dac6d7a43d4886d78feae90cdea);
+            
+
+            rectangle_marker_a2742c9e9e3248d7ae3d07a2ca8e3cdd.bindPopup(popup_1837b815c14f4765b006a439636cfea0);
+
+            
+        
+    
+            var rectangle_marker_b63c4530f366484eb288cd47f33d6224 = L.rectangle(
+                                  [[40.6471076,-73.80001440000001],
+                                  [40.6387194,-73.78890279999999]],
+                {
+                    color: 'black',
+                    fillColor: '#ff6300',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_bba438b3a73b4d6999b99eced9719f52 = L.popup({maxWidth: '300'});
+
+            
+                var html_ec6e7fcbac4e420aaa0f48d033fbdfdc = $('<div id="html_ec6e7fcbac4e420aaa0f48d033fbdfdc" style="width: 100.0%; height: 100.0%;">Region number:2068<br> Trips from this area: 183</div>')[0];
+                popup_bba438b3a73b4d6999b99eced9719f52.setContent(html_ec6e7fcbac4e420aaa0f48d033fbdfdc);
+            
+
+            rectangle_marker_b63c4530f366484eb288cd47f33d6224.bindPopup(popup_bba438b3a73b4d6999b99eced9719f52);
+
+            
+        
+    
+            var rectangle_marker_ffa6c6bb26fc42849b37063c1f0c02d0 = L.rectangle(
+                                  [[40.6554958,-73.80001440000001],
+                                  [40.6471076,-73.78890279999999]],
+                {
+                    color: 'black',
+                    fillColor: '#6db700',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_cc5c505e8fce44508b88694367a4f0de = L.popup({maxWidth: '300'});
+
+            
+                var html_44f00b3702b541a6b2b32773cd30c5da = $('<div id="html_44f00b3702b541a6b2b32773cd30c5da" style="width: 100.0%; height: 100.0%;">Region number:2069<br> Trips from this area: 3</div>')[0];
+                popup_cc5c505e8fce44508b88694367a4f0de.setContent(html_44f00b3702b541a6b2b32773cd30c5da);
+            
+
+            rectangle_marker_ffa6c6bb26fc42849b37063c1f0c02d0.bindPopup(popup_cc5c505e8fce44508b88694367a4f0de);
+
+            
+        
+    
+            var rectangle_marker_e5833ab7d89c4ce2a7cba0a9b2d42e45 = L.rectangle(
+                                  [[40.6471076,-73.78890279999999],
+                                  [40.6387194,-73.7777912]],
+                {
+                    color: 'black',
+                    fillColor: '#ff4c00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_6f34a82f9f014e738cbf2fdf17fea889 = L.popup({maxWidth: '300'});
+
+            
+                var html_45e0ec21befb486086c0d9cf307652c7 = $('<div id="html_45e0ec21befb486086c0d9cf307652c7" style="width: 100.0%; height: 100.0%;">Region number:2118<br> Trips from this area: 243</div>')[0];
+                popup_6f34a82f9f014e738cbf2fdf17fea889.setContent(html_45e0ec21befb486086c0d9cf307652c7);
+            
+
+            rectangle_marker_e5833ab7d89c4ce2a7cba0a9b2d42e45.bindPopup(popup_6f34a82f9f014e738cbf2fdf17fea889);
+
+            
+        
+    
+            var rectangle_marker_ec47b932a7764665897f5a5b3091b552 = L.rectangle(
+                                  [[40.6554958,-73.78890279999999],
+                                  [40.6471076,-73.7777912]],
+                {
+                    color: 'black',
+                    fillColor: '#ffd400',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_ccc5655423de4395b478d683c68f8c12 = L.popup({maxWidth: '300'});
+
+            
+                var html_e635c6206f0f45529e7cfb5ef75b6df9 = $('<div id="html_e635c6206f0f45529e7cfb5ef75b6df9" style="width: 100.0%; height: 100.0%;">Region number:2119<br> Trips from this area: 43</div>')[0];
+                popup_ccc5655423de4395b478d683c68f8c12.setContent(html_e635c6206f0f45529e7cfb5ef75b6df9);
+            
+
+            rectangle_marker_ec47b932a7764665897f5a5b3091b552.bindPopup(popup_ccc5655423de4395b478d683c68f8c12);
+
+            
+        
+    
+            var rectangle_marker_465a9e4e931b4de5a55d8a1d58a8eac4 = L.rectangle(
+                                  [[40.6471076,-73.7777912],
+                                  [40.6387194,-73.7666796]],
+                {
+                    color: 'black',
+                    fillColor: '#ff7f00',
+                    fillOpacity: 0.25,
+                    weight: 1
+                }).addTo(map_02bddf4b4aff4f79902c48136aa2ee60);
+
+            
+    
+            var popup_e4b94d8c0c004a81a50289c7dd8b2fc2 = L.popup({maxWidth: '300'});
+
+            
+                var html_479bcd6df65541a6bf2dd1ba047ddd81 = $('<div id="html_479bcd6df65541a6bf2dd1ba047ddd81" style="width: 100.0%; height: 100.0%;">Region number:2168<br> Trips from this area: 127</div>')[0];
+                popup_e4b94d8c0c004a81a50289c7dd8b2fc2.setContent(html_479bcd6df65541a6bf2dd1ba047ddd81);
+            
+
+            rectangle_marker_465a9e4e931b4de5a55d8a1d58a8eac4.bindPopup(popup_e4b94d8c0c004a81a50289c7dd8b2fc2);
+
+            
+        
+</script>
